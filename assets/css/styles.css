@@ -5,6 +5,7 @@ body {
 
 .main-container {
       background-color: yellow;
+      border: 2px solid black;
 
 }
 .container-1 {
