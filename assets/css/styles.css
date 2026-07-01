@@ -1,10 +1,27 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+
 body { 
     background-color: ghostwhite;
     
 }
 
+.pixelify-sans-<uniquifier> {
+  font-family: "Pixelify Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+h1 {
+    font-size:57px;
+    color: #333;
+    margin-bottom: 20px;
+    font-family: 'Pixelify Sans', sans-serif;
+}
 .container-1 {
     text-align: center;
     position: relative;
     top: 100px;
+
 }
