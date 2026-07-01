@@ -2,13 +2,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Geo:ital@0;1&display=swap");
 
 body {
-  background-color: ghostwhite;
+  background-color: white;
 }
 
+/*font*/
 .pixelify-sans {
   font-family: "Pixelify Sans", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
+  font-weight: 400;
   font-style: normal;
 }
 .geo-regular {
@@ -16,7 +17,32 @@ body {
   font-weight: 400;
   font-style: normal;
 }
+/*navigation bar*/
+.navbar ul{
+  list-style-type: none;
+  background-color: #333;
+  overflow: hidden;
+}
 
+.navbar a{
+  color: white;
+  text-decoration: none;
+  padding: 15px;
+  display: block;
+  text-align: center;
+  font-family: "Pixelify Sans", sans-serif;
+}
+
+.navbar :hover{
+  background-color: #111;
+}
+
+.navbar li{
+  float: left;
+}
+
+
+/*eliments*/
 h1 {
   font-size: 76px;
   color: #333;
@@ -29,6 +55,7 @@ p {
   margin-bottom: 5px;
   font-family: "Geo", sans-serif;
 }
+
 .container-1 {
   text-align: center;
   position: relative;
@@ -45,8 +72,9 @@ p {
   font-size: 32px;
 }
 
-.logo1{
+.logo1 {
   float: left;
   margin-right: 20px;
   width: 280px;
 }
+
