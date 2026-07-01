@@ -7,7 +7,7 @@ body {
     
 }
 
-.pixelify-sans-<uniquifier> {
+.pixelify-sans {
   font-family: "Pixelify Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight: <weight>;
@@ -29,24 +29,26 @@ h1 {
 }
 
 p{
-    font-size: 20px;
+    
     color: #000000;
     margin-bottom: 5px;
     font-family: 'Geo', sans-serif;
 }
 .container-1 {
-    background-color: #18a8bb;
+    
     text-align: center;
     position: relative;
     top: 100px;
 
 }
 .container-2 {
-    background-color: #db0a0a;
+    width: 100%;            /* Fills small screens entirely */
+    max-width: 1200px;      /* Prevents content stretching too wide */
+    margin: 0 auto;         /* Centers the container horizontally */
+    padding: 0 20px;
+    
     text-align: center;
     position: relative;
     top: 100px;
-    left: 250px;
-    right: 250px;
-    
+    font-size: 28px;
 }
