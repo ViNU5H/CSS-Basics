@@ -35,8 +35,18 @@ p{
     font-family: 'Geo', sans-serif;
 }
 .container-1 {
+    background-color: #18a8bb;
     text-align: center;
     position: relative;
     top: 100px;
 
+}
+.container-2 {
+    background-color: #db0a0a;
+    text-align: center;
+    position: relative;
+    top: 100px;
+    left: 250px;
+    right: 250px;
+    
 }
