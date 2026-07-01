@@ -1,10 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Geo:ital@0;1&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Geo:ital@0;1&display=swap');
-
-body { 
-    background-color: ghostwhite;
-    
+body {
+  background-color: ghostwhite;
 }
 
 .pixelify-sans {
@@ -19,36 +17,36 @@ body {
   font-style: normal;
 }
 
-
-
 h1 {
-    font-size:76px;
-    color: #333;
-    margin-bottom: 20px;
-    font-family: 'Pixelify Sans', sans-serif;
+  font-size: 76px;
+  color: #333;
+  margin-bottom: 20px;
+  font-family: "Pixelify Sans", sans-serif;
 }
 
-p{
-    
-    color: #000000;
-    margin-bottom: 5px;
-    font-family: 'Geo', sans-serif;
+p {
+  color: #000000;
+  margin-bottom: 5px;
+  font-family: "Geo", sans-serif;
 }
 .container-1 {
-    
-    text-align: center;
-    position: relative;
-    top: 250px;
-
+  text-align: center;
+  position: relative;
+  top: 250px;
 }
 .container-2 {
-    width: 100%;            /* Fills small screens entirely */
-    max-width: 1200px;      /* Prevents content stretching too wide */
-    margin: 0 auto;         /* Centers the container horizontally */
-    padding: 0px;
-    background-color: blue;
-    text-align: center;
-    position: relative;
-    top: 250px;
-    font-size: 32px;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0px;
+  text-align: auto;
+  position: relative;
+  top: 250px;
+  font-size: 32px;
+}
+
+.logo1{
+  float: left;
+  margin-right: 20px;
+  width: 280px;
 }
