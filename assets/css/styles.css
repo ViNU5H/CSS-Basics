@@ -45,8 +45,8 @@ p{
     width: 100%;            /* Fills small screens entirely */
     max-width: 1200px;      /* Prevents content stretching too wide */
     margin: 0 auto;         /* Centers the container horizontally */
-    padding: 0 20px;
-    
+    padding: 0px;
+    background-color: blue;
     text-align: center;
     position: relative;
     top: 250px;
